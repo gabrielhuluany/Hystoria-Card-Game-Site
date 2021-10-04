@@ -56,7 +56,7 @@ $u = new Usuario;*/
        <li class="logo"><a href="."><img class="logo" src="Logo.png"/></a></li>
        <li class="pagina_inicial"><a href="."><br>Hystoria</a></li>
        <li class="sobre_o_jogo"><a id="drop">Sobre o Jogo <font size="3" id="simbolo">▽</font></a>
-       <ul>
+       <ul style="margin: -3px;">
          <li class="como_jogar"><a href="Como_Jogar">Como Jogar</a></li>
          <li class="campanha"><a href="Campanha">Campanha</a></li>
          <li class="cartas"><a href="Cartas">Cartas</a></li>
