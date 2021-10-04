@@ -1,0 +1,305 @@
+﻿*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #333;
+}
+
+/*
+::-webkit-scrollbar{
+  width: 0px;
+}
+*/
+
+/*
+::-webkit-tap-highlight-color: rgba(0,0,0,0);
+::-webkit-tap-highlight-color: transparent;
+
+:focus {
+  outline: none !important;
+}
+*/
+
+.menu > ul{
+  display: table;
+  margin: 0 auto;
+}
+
+.menu{
+  height: 50px;
+  width: 100%;
+  background-color: #333;
+  font-family: "Roman Font 7";
+}
+
+.menu ul{
+  list-style: none;
+  position: relative;
+}
+
+.menu ul li{
+  width: 150px;
+  float: left;
+}
+
+.menu a{
+  padding: 15px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+
+.menu ul ul{
+  position: absolute;
+  visibility: hidden;
+}
+
+.menu ul li:hover ul{
+  visibility: visible;
+}
+
+.menu a:hover{
+  color: #FFD700;
+}
+
+.sobre_o_jogo a:hover{
+  color: #FFD700;
+}
+
+.menu ul ul li{
+  float: none;
+  border-bottom: solid 1px #FFD700;
+}
+
+.menu ul ul li a{
+  background-color: #555;
+}
+
+.menu ul ul li a:hover{
+  color: #FFD700;
+}
+
+label[for="bt_menu"]{
+  padding: 5px;
+  background-color: #333;
+  color: #fff;
+  font-family: "Roman Font 7";
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+
+#bt_menu{
+  display: none;
+}
+
+label[for="bt_menu"]{
+  display: none;
+}
+
+label[for="bt_menu"]:hover{
+  color: #FFD700;
+}
+
+.login{
+  margin-top: 0px;
+  margin-left: -145px;
+}
+
+.login br{
+  display: none;
+}
+
+.user img{
+  height: 20%;
+  width: 20%;
+  margin-top: -6px;
+  margin-left: -75px;
+  position: relative;
+}
+
+.download a{
+  background-color: #700000;
+  margin-top: 0px;
+  margin-left: 15px;
+}
+
+.download a:hover{
+  background-color: #800000;
+  color: #FFD700;
+}
+
+.logo img{
+  height: 25%;
+  width: 25%;
+  margin-top: -11px;
+  margin-left: -125px;
+  position: relative;
+}
+
+.página_inicial{
+  margin-top: 0px;
+  margin-left:-165px;
+}
+
+.página_inicial br{
+  display: none;
+}
+
+.background{
+  height: 100%;
+  width: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+@media(max-width: 1100px){
+
+.logo{
+  margin-top: 0px;
+}
+
+.página_inicial{
+  margin-top: 10px;
+}
+
+.sobre_o_jogo{
+  margin-top: -10px;
+}
+
+.noticias{
+  margin-top: 0px;
+}
+
+.comunidade{
+  margin-top: -10px;
+}
+
+.suporte{
+  margin-top: -10px;
+}
+
+.user{
+  margin-top: -10px;
+}
+
+label[for="bt_menu"]{
+  display: block;
+  transition: all .3s;
+}
+
+#bt_menu:checked ~ .menu{
+  margin-left: 0;
+}
+
+#bt_menu:checked ~ label[for="bt_menu"]:before{
+  font-family: "Arial";
+  display: block;
+  content: "X";
+  margin-top: 5px;
+  margin-left: 0px;
+  height: 50px;
+}
+
+#bt_menu:not(:checked) ~ label[for="bt_menu"]:before{
+  font-family: "Roman Font 7";
+  content: "";
+}
+
+.menu > ul{
+  display: block;
+}
+
+.menu{
+  height: 100%;
+  width: 100%;
+  margin-top: -1%;
+  margin-left: -100%;
+  transition: all .3s
+}
+
+.menu a{
+  font-size: 25px;	
+}
+
+.menu ul{
+  list-style: none;
+  position: relative;
+}
+
+.menu ul li{
+  width: 100%;
+  float: none;
+}
+
+.menu ul ul{
+  position: static;
+  overflow: hidden;
+  max-height: 0;
+  transition: all .3s;
+  margin-top: -10px;
+}
+
+.menu ul li:hover ul{
+  height: auto;
+  max-height: 200px;
+}
+
+.login{
+  margin-top: -50px;
+  margin-left: 0px;
+}
+
+.login br{
+  display: block;
+}
+
+.user img{
+  height: 10%;
+  width: 10%;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.download a{
+  background-color: #700000;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.download a:hover{
+  background-color: #800000;
+  color: #FFD700;
+}
+
+.logo img{
+  height: 25%;
+  width: 25%;
+  margin-top: -50px;
+  margin-left: 0px;
+}
+
+.página_inicial{
+  margin-top: -50px;
+  margin-left: 0px;
+}
+
+.página_inicial br{
+  display: block;
+}
+
+.background{
+  height: 100%;
+  width: 100%;
+  margin-top: -500px;
+  margin-left: 0px;
+  padding: -500px;
+}
+
+}

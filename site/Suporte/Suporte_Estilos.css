@@ -1,0 +1,136 @@
+﻿@font-face{
+  font-family: "Roman Font 7";
+  src: url("../roman_font_7.eot") format("eot"),
+  url("../roman_font_7.woff") format("woff"),
+  url("../roman_font_7.ttf") format("truetype"),
+  url("../roman_font_7.svg#RomanFont7") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Code New Roman Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Code New Roman Regular'), url('../Code New Roman.woff') format('woff');
+}
+
+@font-face{
+  font-family: 'Code New Roman Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Code New Roman Italic'), url('../Code New Roman i.woff') format('woff');
+}
+
+@font-face{
+  font-family: 'Code New Roman Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Code New Roman Bold'), url('../Code New Roman b.woff') format('woff');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #000;
+  font-family: "Roman Font 7";
+  background-image: url("Suporte_Background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+
+.corpo-form{
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -250px 0px 0px -250px;
+}
+
+.corpo-form h1{
+  color: #000000;
+  text-shadow: 1px 1px #000;
+  text-align: center;
+  margin-left: 0px;
+}
+
+input{
+  display: block;
+  height: 35px;
+  width: 400px;
+  margin: 10px;
+  border: 1px solid #000;
+  font-size: 16pt;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  outline: none;
+  margin-left: 27.5px;
+}
+
+textarea{
+  display: block;
+  height: 150px;
+  width: 400px;
+  margin: 10px;
+  border: 1px solid #000;
+  font-size: 16pt;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  outline: none;
+  resize: none;
+  margin-left: 27.5px;
+}
+
+input[type=submit]{
+  height: 57px;
+  width: 442px;
+  font-family: "Roman Font 7";
+  color: #FFD700;
+  background-color: #800000;
+  cursor: pointer;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 1px 1px #000;
+}
+
+a:hover{
+  color: #FFD700;
+  text-decoration: underline;
+  text-shadow: none;
+}
+
+#linkhomepage{
+  text-align:center;
+  display:block;
+}
+
+::-webkit-input-placeholder{
+  color: #fff;
+  font-family: 'Code New Roman Regular';
+}
+
+:-moz-placeholder{
+  color: #fff;
+  font-family: 'Code New Roman Regular';
+}
+
+::-moz-placeholder{
+  color: #fff;
+  font-family: 'Code New Roman Regular';
+}
+
+:-ms-input-placeholder{
+  color: #fff;
+  font-family: 'Code New Roman Regular';
+}

@@ -1,0 +1,118 @@
+﻿@font-face{
+  font-family: "Roman Font 7";
+  src: url("../roman_font_7.eot") format("eot"),
+  url("../roman_font_7.woff") format("woff"),
+  url("../roman_font_7.ttf") format("truetype"),
+  url("../roman_font_7.svg#RomanFont7") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #000;
+  font-family: "Roman Font 7";
+  background-image: url("Download_Background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.wrapper{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.titulo{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.logo{
+  height: 10rem;
+  width: 10rem;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover{
+  color: #FFD700;
+}
+
+h3{
+  text-decoration: none;
+  color: #fff;
+}
+
+h1{
+  position: relative;
+  text-align: center;
+  text-shadow: 5px 5px 5px #111111;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  font-family: "Roman Font 7";
+  font-size: 100px;
+  color: #fff;
+}
+
+.btn{
+  height: 125px;
+  padding-top: 3rem;
+  padding-bottom: 0rem;
+  text-align: center;
+}
+
+button{
+  position: relative;
+  background: #700000;
+  background-image: linear-gradient(to right, #500000, #600000, #700000, #600000, #500000);
+  color: #fff;
+  font-family: "Roman Font 7";
+  width: 240px;
+  height: 80px;
+  font-size: 25px;
+  border: none;
+  outline-color: #fff;
+  overflow: hidden;
+}
+
+button:hover{
+  background: #800000;
+  background-image: linear-gradient(to right, #700000, #800000, #900000, #800000, #700000);
+  color: #FFD700;
+}
+
+#linkhomepage{
+  text-align:center;
+  display:block;
+  padding-bottom: 37px;
+}
+
+@media(max-width: 400px){
+  
+h1{
+  font-size: 75px;
+}
+
+}
+
+@media(min-width: 1100px){
+
+.btn{
+  padding-bottom: 0rem;
+}
+
+}
